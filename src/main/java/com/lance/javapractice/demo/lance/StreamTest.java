@@ -18,14 +18,14 @@ public class StreamTest {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
-        for(int i=0;i<10;i++){
+        for (int i = 0; i < 10; i++) {
             list.add(new Random().nextInt(10));
         }
-        Integer [] intArray = new Integer[]{1,3,5,2,4,6};
+        Integer[] intArray = new Integer[]{1, 3, 5, 2, 4, 6};
 
         // 1.Collections.stream()
         System.out.println("01");
-        list.parallelStream().mapToInt(Integer::intValue).filter(i->i%2==0).forEach(x -> System.out.println("01_"+x));
+        list.parallelStream().mapToInt(Integer::intValue).filter(i -> i % 2 == 0).forEach(x -> System.out.println("01_" + x));
 
         // 2.Arrays.stream()
         System.out.println("02");
