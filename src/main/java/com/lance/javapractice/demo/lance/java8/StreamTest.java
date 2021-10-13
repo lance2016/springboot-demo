@@ -1,4 +1,4 @@
-package com.lance.javapractice.demo.lance;
+package com.lance.javapractice.demo.lance.java8;
 
 import java.util.ArrayList;
 import java.util.Arrays;
