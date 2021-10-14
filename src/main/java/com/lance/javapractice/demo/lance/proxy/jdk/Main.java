@@ -1,4 +1,4 @@
-package com.lance.javapractice.demo.lance.proxy;
+package com.lance.javapractice.demo.lance.proxy.jdk;
 
 /**
  * @program: demo  Main
